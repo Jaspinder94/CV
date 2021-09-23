@@ -3,15 +3,83 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <title>Contact Details</title>
+  <style media="screen">
+  .dropbtn {
+background-color: #4CAF50;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: wheat;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,2,9,0.4);
+  z-index: 1;
+}
+a.aaa1:link,a.aaa1:visited{
+  margin-left:20px;
+  color: white;
+  text-decoration: none;
+  background-color: Teal;
+  padding:5px;
+}
+a.aaa1:hover{
+  margin-left:20px;
+  color: salmon;
+  text-decoration: none;
+  background-color: black;
+  padding:5px;
+}
+
+<!--  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;} -->
+
+.dropdown-content a:hover {background-color:lemonchiffon}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+div{
+  margin-left:60px;
+}
+a.aaa0:link,a.aaa0:active{
+  text-decoration: none;
+  color:teal;
+
+}
+a.aaa0:hover{
+  text-decoration: underline;
+  color:hotpink;
+}
+
+
+
+  </style>
 </head>
 
-<body style="Background-Color:BlanchedAlmond">
+<body style="Background-Color:Lightcyan">
   <center>
-    <h1 style="Background-Color:Brown;Color:White">CONTACT DETAILS</h1>
+    <h1 style="Background-Color:Lightseagreen;Color:White;padding:6px;">CONTACT DETAILS</h1>
     </center>
-    <p ><strong>
-      <ol style="font-size:20px ; border:2px solid brown">
+    <div ><strong>
+      <ol style="font-size:20px ;">
         <li>District: Faridkot</li>
         <li>State: Punjab</li>
         <li>Pin Code: 151203</li>
@@ -19,10 +87,43 @@
         <li>Contact Number: 1234567890</li>
         <li>Instagram Id: jaspinder_singh</li>
       </ol>
-  </strong>  </p>
-<p><br>
+  </strong>  </div>
+
+  <div class="dropdown" style="float:right;margin-right:20px;">
+    <button class="dropbtn">To go to previous pages</button>
+    <div class="dropdown-content"><ul>
+      <li><a class="aaa0" href="index.html">Index</a><br></li>
+      <li><a class="aaa0" href="hobbies.html">Hobbies</a><br></li>
+      <li><a class="aaa0" href="objectives.html">Objectives</a></li>
+    </ul>
+
+    </div>
+  </div>
+
+
+
+
+  <div class="dropdown" style="float:left;">
+    <button class="dropbtn">CONTACTS</button>
+    <div class="dropdown-content" style="left:0;"><ul>
+      <li>12121212</li>
+      <li>90909090</li>
+      <li>878787878</li>
+    </ul>
+
+
+    </div>
+  </div>
+
+
+
+
+
+<p style="color:lightseagreen;font-size:10px;"><br>
     <center>
-<a href="index.html">Click here to go back to main page</a> </p>
+<a  href="index.html"><i class="glyphicon glyphicon-thumbs-up" style="font-size:60px;color:lightseagreen;"></i><br></a>
+CLICK ON THE ICON <br> TO GO TO MAIN PAGE </p>
+
   </center>
 </body>
 
